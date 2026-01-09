@@ -4,11 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
-      <!-- Your code here -->
+    <table style="width: 100%; height: 100%; border: 1px solid black;" cellpadding="10">
+      <tr>
+        <td>
+          <!-- Nested Table 1 -->
+          <table style="width: 100%; border: 1px solid black;" cellpadding="10">
+            <tr>
+              <th colspan="2" style="border: 1px solid black;">Nested Table 1</th>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black;">Column 1</td>
+              <td style="border: 1px solid black;">Column 2</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <!-- Nested Table 2 -->
+          <table style="width: 100%; border: 1px solid black;" cellpadding="10">
+            <tr>
+              <th colspan="2" style="border: 1px solid black;">Nested Table 2</th>
+            </tr>
+            <tr>
+              <th style="border: 1px solid black;">Column 1</th>
+              <th style="border: 1px solid black;">Column 2</th>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black;">HTML</td>
+              <td style="border: 1px solid black;">CSS</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <!-- Nested Table 3 -->
+          <table style="width: 100%; border: 1px solid black;" cellpadding="10">
+            <tr>
+              <th style="border: 1px solid black;">Nested Table 3</th>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black;">
+                <ul>
+                  <li>List item 1</li>
+                  <li>List item 2</li>
+                  <li>List item 3</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <!-- Nested Table 4 -->
+          <table style="width: 100%; border: 1px solid black;" cellpadding="10">
+            <tr>
+              <th style="border: 1px solid black;">Nested Table 4</th>
+            </tr>
+            <tr>
+              <td style="border: 1px solid black; background-color: black; color: white; text-align: center;">
+                HTML
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
     </table>
   </body>
 </html>
